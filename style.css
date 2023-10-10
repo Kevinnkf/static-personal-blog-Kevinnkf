@@ -1,0 +1,347 @@
+/* sytle the general font and things inside the body tag */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #E9F1FA;
+  }
+  
+  /* style the general navbar */
+  .topnav {
+    background-color: whitesmoke;
+    overflow: hidden;
+  }
+  
+  /* sytle the svg on the navbar */
+  .topnav svg {
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+  }
+  
+  /* style the a on the navbar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s, color 0.3s;
+  } 
+  
+  /* style the top nav on hover */
+  .topnav a:hover {
+    background-color: #392b72;
+    color: whitesmoke;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* style the active link of the navbar */
+  .topnav a.active {
+    background-color: #392b72;
+    color: white;
+  }
+  
+  /* Center the h1 element */
+  h1 {
+    text-align: center;
+    
+  }
+  
+  .upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 1em; */
+  
+  }
+  
+  /* Style the image */
+  #image img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 50%;
+  }
+
+  #image img:hover {
+    transform: rotate(340deg); /* Rotate back to the original position on hover */
+    transition: transform 0.5s ease;
+  }
+
+#karate{
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+  width: 50%;
+  height: 50%;
+}
+  
+  /* Style the biography section */
+  .biography {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 3em;
+    padding: 2em;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    width: fit-content;
+    border-radius: 20px;
+  }
+  
+  /* Style the list of hobbies */
+  .hobbies {
+    margin: 20px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+
+  .hobbies h2{
+    text-align: center;
+
+  }
+  
+  /* styling the .website div */
+  #website {
+    margin: 20px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  /* music div */
+  .music{
+    margin: 20px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  
+  }
+  
+  .iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* footer in general */
+  .footer {
+    background-color: #392b72;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* footer h2 */
+  .footer h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    /* footer h3 */
+  .footer h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .footer form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .footer textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: fit-content;
+  }
+  
+
+  
+  /* button color in the footer div */
+  .footer button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* button on hover */
+  .footer button:hover {
+    background-color: #0056b3;
+  }
+
+  
+.svg-inline--fa {
+    vertical-align: -0.200em;
+  }
+  
+  .rounded-social-buttons {
+    text-align: center;
+  }
+  
+  .rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 0.125rem solid transparent;
+    margin-top: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  
+  .rounded-social-buttons .fa-linkedin, .fa-youtube, .fa-instagram {
+    font-size: 25px;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin {
+    background: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.youtube {
+    background: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+    color: #bb0000;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.instagram {
+    background: #125688;
+  }
+  
+  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+    color: #125688;
+    background: #fefefe;
+    border-color: #125688;
+  }
+  
+  
+  
+  @media (max-width: 460px) {
+    /* Hide the topnav by default */
+    .topnav {
+      display: flex;
+      flex-direction: column;
+      margin-right: 0;
+    }
+  
+    /* Display the links vertically */
+    .topnav.active {
+      display: block;
+    }
+  
+    /* Style the links in the vertical navbar */
+    .topnav.active a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+    }
+  
+    /* Apply styles to the vertical navbar links on hover */
+    .topnav.active a:hover {
+      background-color: #555;
+    }
+  
+    .upper{
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+  
+  }
+  
+  @media (max-width: 767px) {
+    .upper{
+      display: flex;
+      flex-direction: column;
+    }
+  
+  } 
+  
+/* projects.html styling */
+.card-group{
+    padding: 2em;
+}
+
+
+.card:hover {
+    background-color: #392b72;
+    color: whitesmoke;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

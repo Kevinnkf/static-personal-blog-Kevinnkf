@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML FUNDAMENTALS</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+      integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Compact Navigation Bar -->
+    <nav class="vertical-nav" role="navigation">
+      <div class="topnav">
+        <a href="index.html"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="100"
+            height="100"
+            viewBox="0 0 32 32"
+          >
+            <path
+              d="M 24.275391 4.7246094 C 25.980391 7.0446094 27 9.9 27 13 C 27 20.732 20.732 27 13 27 C 9.9 27 7.0446094 25.980391 4.7246094 24.275391 C 7.2736094 27.741391 11.368 30 16 30 C 23.732 30 30 23.732 30 16 C 30 11.368 27.741391 7.2736094 24.275391 4.7246094 z M 7.3496094 6 C 5.3086094 7.65 4 10.171 4 13 C 4 16.255 5.7342656 19.096734 8.3222656 20.677734 C 7.4892656 19.313734 7 17.716 7 16 C 7 13.338 8.163 10.952688 10 9.3046875 L 10 6 L 7.3496094 6 z M 16 6 L 16 10 C 16 11.657 14.657 13 13 13 C 13 14.657 14.343 16 16 16 C 17.657 16 19 14.657 19 13 L 19 10 L 21 10 L 19 6 L 18 6 L 16 6 z"
+            ></path>
+          </svg>
+        </a>
+        <a class="active" href="index.html">Home</a>
+        <a href="Projects.html">Past Projects</a>
+        <a href="career.html">Career</a>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header role="banner">
+      <div id="h1div">
+        <h1>About me</h1>
+      </div>
+    </header>
+
+    <section class="upper">
+      <!-- Image Section -->
+      <div id="image">
+        <img
+          src="https://media.licdn.com/dms/image/D5603AQG6dfQ5cgJPig/profile-displayphoto-shrink_400_400/0/1676016963739?e=1700092800&v=beta&t=MsMVzETyJNyaghZ_mUnsevQZmdwTBma0XMn7qPwdtTY"
+          alt="Kevin's face"
+          srcset=""
+          aria-label="Image of Kevin"
+        />
+      </div>
+
+      <!-- Biography Section -->
+
+      <div class="biography" role="main">
+        <h2>Biography</h2>
+        <p>
+          My name is Kevin, and I am currently a student in my 5th semester at
+          Politeknik Negeri Jakarta. I am writing to inform you that I am
+          presently enrolled in the esteemed IISMA Program, which has granted me
+          the opportunity to study in South Korea for the duration of one
+          semester. I am Indonesian, and it is a tropical country with an
+          average of 32&deg; Celsius every day.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer" role="footer">
+        <h2>Contact Me!</h2>
+        <form action="" method="post" aria-label="Contact Form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+        <div class="rounded-social-buttons">
+          <a
+            class="social-button linkedin"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            class="social-button youtube"
+            href="https://www.youtube.com/"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a
+            class="social-button instagram"
+            href="https://www.instagram.com/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <h3>&copy; 2023 Copyright: All Rights Reserved</h3>
+      </div>
+    </footer>
+  </body>
+</html>
